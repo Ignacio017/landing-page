@@ -96,6 +96,7 @@ img {
 #snippets-title {
   font-weight:var(--font-weight-600);
   color: var(--gray-dark);
+  margin-top: 5em;
 }
 
 #snippets-text {
@@ -107,19 +108,16 @@ img {
   display: flex;
   margin-top: 5em;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   text-align: left;
 }
 
 #image-computer-container {
-  width: 30em;
+  padding: 1em ;
 }
 
-#characteristics-container {
-  width: 50em;
-  
-}
+
 
 .characteristics-title {
   color: var(--gray-dark);
@@ -147,7 +145,7 @@ img {
   }
 }
 
-@media (max-width:1400px) {
+@media (max-width:1200px) {
   #characteristics {
     justify-content: center;
   }
