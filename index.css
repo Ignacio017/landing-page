@@ -20,7 +20,6 @@ html {
 
 #header {
   display: flex;
-  height: 80vh;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
@@ -73,7 +72,6 @@ html {
 #ios-button {
   background-color:  hsl(171, 66%, 44%);
   border-color: hsl(170, 49%, 35%);
-  ;
 }
 
 #mac-button {
