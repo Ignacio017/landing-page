@@ -1,0 +1,95 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+
+
+:root {
+  --font-weight-600:600;
+  --font-weight-400:400;
+  --gray-dark: hsl(210, 10%, 33%);
+  --gray-light:hsl(201, 11%, 66%);
+}
+
+#header {
+  display: flex;
+  height: 80vh;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  gap: 2em;
+  background-image: url(/images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
+}
+
+#logo {
+  margin-top: 4em;
+  width: 10em;
+  height: 10em;
+}
+
+#header-title {
+  font-size:2.5rem;
+  font-weight: var(--font-weight-600);
+  color: var(--gray-dark);
+
+}
+
+#header-text {
+  font-weight: var(--font-weight-400);
+  color: var(--gray-light);
+}
+
+.button {
+  width: 15em;
+  height: 3em;
+  border: none;
+  color: white;
+  border-bottom: .6em solid;
+  box-sizing: initial;
+  border-radius: 1.5em;
+  cursor: pointer;
+}
+
+.button:active {
+  border-bottom: .3em solid;
+  transform: translateY(.3em);
+  transition: .5s;
+}
+
+.button:not(hover) {
+  transition: .5s;
+}
+
+#ios-button {
+  background-color:  hsl(171, 66%, 44%);
+  border-color: hsl(170, 49%, 35%);
+  ;
+}
+
+#mac-button {
+  background-color: hsl(233, 100%, 69%);
+  border-color: hsl(233, 43%, 48%);
+}
+
+@media  (max-width:700px) {
+  #header{
+    background-image: url(images/bg-header-mobile.png);
+    justify-content: center;
+  }
+
+  .button {
+    margin-bottom: .5em;
+    display: block;
+  }
+}
+
