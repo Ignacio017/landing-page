@@ -21,6 +21,16 @@ img {
   height: auto;
 }
 
+.title {
+  font-weight: var(--font-weight-600);
+  color: var(--gray-dark);
+}
+
+.text {
+  font-weight: var(--font-weight-400);
+  color: var(--gray-light);
+}
+
 #header {
   display: flex;
   flex-direction: column;
@@ -41,15 +51,8 @@ img {
 
 #header-title {
   font-size:2.5rem;
-  font-weight: var(--font-weight-600);
-  color: var(--gray-dark);
-
 }
 
-#header-text {
-  font-weight: var(--font-weight-400);
-  color: var(--gray-light);
-}
 
 .button {
   width: 15em;
@@ -94,14 +97,7 @@ img {
 }
 
 #snippets-title {
-  font-weight:var(--font-weight-600);
-  color: var(--gray-dark);
   margin-top: 5em;
-}
-
-#snippets-text {
-  font-weight: var(--font-weight-400);
-  color: var(--gray-light);
 }
 
 #characteristics {
@@ -118,19 +114,23 @@ img {
   width: 30em;
 }
 
-
-
 .characteristics-title {
-  color: var(--gray-dark);
-  font-weight: var(--font-weight-600);
   margin-bottom: 1em;
   margin-top: 2em;
 }
 
 .characteristics-text {
-  color: var(--gray-light);
-  font-weight: var(--font-weight-400);
   line-height: 1.5em;
+}
+
+#access {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5em;
+  gap: 2em;
 }
 
 
