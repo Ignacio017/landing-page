@@ -143,8 +143,34 @@ img {
 }
 
 
+#footer {
+  justify-content: flex-start;
+  width: 100%;
+  height: 8em;
+  background-color: hsl(200, 10%, 94%);
+  gap: 5em;
+}
 
+.footer-column {
+  line-height: 2em;
+}
 
+#logo-footer {
+  width: 4em;
+  height: 4em;
+  margin-left: 5em;
+}
+
+#social-container {
+  position: absolute;
+  right: 5em;
+}
+
+.social-red {
+  width: 3em;
+  padding: .6em;
+  height: 3em;
+}
 
 
 @media  (max-width:750px) {
