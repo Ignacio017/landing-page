@@ -95,8 +95,16 @@ img {
   border-color: hsl(170, 49%, 35%);
 }
 
+.ios-button:active {
+  border-color: hsl(170, 49%, 35%);
+}
+
 .mac-button {
   background-color: hsl(233, 100%, 69%);
+  border-color: hsl(233, 43%, 48%);
+}
+
+.mac-button:active {
   border-color: hsl(233, 43%, 48%);
 }
 
