@@ -117,8 +117,8 @@ img {
 }
 
 #image-computer-container {
-  padding: 1em ;
-  width: 30em;
+  width: 40em;
+  transform: translateX(-15%);
 }
 
 .characteristics-title {
@@ -201,13 +201,18 @@ img {
   }
 }
 
-@media (max-width:1105px) {
+@media (max-width:1250px) {
   #characteristics {
     justify-content: center;
   }
 
   #characteristics-container {
     text-align: center;
+  }
+
+  #image-computer-container {
+    transform: translateX(0);
+    padding: 1em;
   }
 
   #footer {
