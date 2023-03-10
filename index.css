@@ -90,12 +90,12 @@ img {
   transition: .5s;
 }
 
-#ios-button {
+.ios-button {
   background-color:  hsl(171, 66%, 44%);
   border-color: hsl(170, 49%, 35%);
 }
 
-#mac-button {
+.mac-button {
   background-color: hsl(233, 100%, 69%);
   border-color: hsl(233, 43%, 48%);
 }
